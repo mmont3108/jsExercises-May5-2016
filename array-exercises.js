@@ -26,7 +26,9 @@ function example() {
   ie:
     quadArray() -> an array with 4 items
 */
-
+function quaArray(){
+  
+}
 
 /*
   Create a function named 'itemCount' with one parameter

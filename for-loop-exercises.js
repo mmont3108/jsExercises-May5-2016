@@ -25,7 +25,11 @@ function example() {
   Inside the body, create a for loop that repeats 5 times
   Inside the for loop, call run()
 */
-
+function looper(){
+  for (var i=0; i < 5; i++) {
+    run();
+  }
+}
 
 /*
   Create a function named 'inception' with one parameter
@@ -38,7 +42,11 @@ function example() {
     inception(4) -> run() is called four times
     inception(0) -> run() should not be called
 */
-
+function inception(paul){
+  for (var i=0; i <paul.length; i++){
+    run();
+  }
+  }
 
 /*
   Create a function named 'redLightGreenLight' with two parameters
@@ -51,7 +59,9 @@ function example() {
     redLightGreenLight(4, true) -> run() is called four times
     redLightGreenLight(0, false) -> stop() should not be called
 */
-
+function redLightGreenLight(pink,purple){
+  for (var i=0; < ; i++)
+}
 
 /*
   Create a function named 'range' with two parameters
@@ -66,7 +76,7 @@ function example() {
     range(3, 6) -> run() is called thrice
     range(2, 0) -> run() should not be called
 */
-
+function range()                                  
 
 /*
   Create a function named 'rangeAdv' with three parameters
